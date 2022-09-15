@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ubuntu:wght@700&display=swap"
+      rel="stylesheet"/>
+  <title>Document</title>
+  <link rel="stylesheet" href="siet-style.css">
+</head>
+<body>
+  <video id="background-video" autoplay loop muted poster="images/thumbnail.jpeg">
+    <source src="images/bg-video.mp4" type="video/mp4">
+  </video>
+  <div id="tint">
+    <nav class="top-nav">
+      <marquee behavior="scroll" direction="left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero in sunt laboriosam fuga reprehenderit asperiores, possimus exercitationem quos natus aspernatur. Explicabo praesentium corporis temporibus asperiores harum, voluptate dolore quam doloribus.</marquee>
+      <ul class="top-nav-list">
+        <li><a href="#">RANKS</a></li>
+        <li><a href="#">REQUIREMWNT</a></li>
+        <li><a href="#">ADMISSIONS</a></li>
+      </ul>
+    </nav>
+    <nav class="bottom-nav">
+      <!--Navbat Logo-->
+      <div class="nav-logo">
+        <a href="test.html">
+          <img style="width: 225px;" src="images/logo.png" alt="SIET Logo">
+        </a>
+      </div>
+      <!--Navbat items-->
+      <ul class="bottom-nav-list">  
+        <li id="home">
+          <a href="test.html">Home</a>
+        </li>
+        <li id="about">
+          <a href="#">About Us</a>
+          <ul class="dd-1">
+            <li><a href="#">Mission and Vission</a></li>
+            <li><a href="#">Chairman's Desk</a></li>
+            <li><a href="#">From Principal</a></li>
+          </ul>
+        </li>
+        <li id="acadamics">
+          <a href="#">Acadamics</a>
+          <ul class="dd-1">
+            <li id="dept">
+              <a href="#">Departments</a>
+              <ul class="dd-2">
+                <li><a href="">Computer Science</a></li>
+                <li><a href="">Electronics</a></li>
+                <li><a href="">Civil</a></li>
+                <li><a href="">Mechanical</a></li>
+                <li><a href="">Bio-Medical</a></li>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#">Placements</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">Achivements</a></li>
+          </ul>
+        </li>
+        <li id="life-siet"><a href="#">Life@SIET</a></li>
+        <li id="contact"><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+  <main>
+    <section class="sec1">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/qtkwqnczmUY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div>
+        <h2>   Why Sri Shakthi?</h2></br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, ipsum voluptatibus, dolorem labore fuga accusamus nostrum assumenda quidem consequuntur cumque at officia provident. Quibusdam minus velit quod! Provident excepturi quisquam autem voluptas vel vero ullam doloremque, doloribus non mollitia? Vel aperiam saepe dolores maiores aliquid nemo impedit veniam id dolore error autem ut dolorum eum mollitia deserunt magnam architecto recusandae animi velit a, hic, quo odit! Molestiae corporis placeat a dicta repellat fugit dolores quaerat, quas autem sed omnis ipsa qui consequuntur perferendis debitis animi eaque, delectus repellendus eligendi enim quia accusamus nisi ab ex. Ut doloribus assumenda voluptatem rem?</p>
+      </div>
+    </section>
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" style="height: 85vh;" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner" style="height: 85vh;">
+        <div class="carousel-item active">
+          <img src="images/cover-3.jpg" class="d-block w-100" style="height: 85vh;" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/cover-1.jpg" class="d-block w-100" style="height: 85vh;" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/cover-2.jpg" class="d-block w-100" style="height: 85vh;" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <section class="blog-news container-fluid">
+      <div class="blog">
+        <div class="blog-main">
+          <img src="images/sample-1.jpg" id="main-post" alt="">
+          <div>
+            <h3>Won 1st Prize in Haackaton under the Domain BlockChain</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quasi! Reiciendis voluptates fuga nesciunt cum, id a, voluptatibus eum voluptate at nam dignissimos, recusandae voluptatem.</p>
+          </div>
+        </div>
+        <div class="blog-sub">
+          <img src="images/sample-6.jpg" id="prev-post" alt="">
+          <img src="images/sample-2.jpg" id="next-post" alt=""> 
+        </div>
+      </div>
+      <div class="news">
+         <h3>EVENTS...</h3>
+         <div>
+          <div id="e1" class="event">
+            <div class="event-date">
+              <div style="border-bottom: 2px solid red; font-size: .7rem;">21</div>
+              <div>JAN</div>
+              <div>2022</div>
+            </div>
+            <div class="event-content">Independence day conducted on SIET</div>
+          </div>
+          <div id="e2" class="event">
+            <div class="event-date">
+              <div style="border-bottom: 2px solid red; font-size: .7rem;">25</div>
+              <div>NOV</div>
+              <div>2022</div>
+            </div>
+            <div class="event-content">Inter Culturals Conducted in SIET Campus</div>
+          </div>
+          <div id="e3" class="event">
+            <div class="event-date">
+              <div style="border-bottom: 2px solid red; font-size: .7rem;">17</div>
+              <div>SEP</div>
+              <div>2022</div>
+            </div>
+            <div class="event-content">AIML Department 1st Inagration Function</div>
+          </div>
+          <div id="e4" class="event">
+            <div class="event-date">
+              <div style="border-bottom: 2px solid red; font-size: .7rem;">27</div>
+              <div>AUG</div>
+              <div>2021</div>
+            </div>
+            <div class="event-content">Smaet India Hackthon Grand Finale</div>
+          </div>
+          <div id="e5" class="event">
+            <div class="event-date">
+              <div style="border-bottom: 2px solid red; font-size: .7rem;">09</div>
+              <div>MAR</div>
+              <div>2022</div>
+            </div>
+            <div class="event-content">Valentince day Celebration</div>
+          </div>
+          <div id="e6" class="event">
+            <div class="event-date">
+              <div style="border-bottom: 2px solid red; font-size: .7rem;">14</div>
+              <div>FEB</div>
+              <div>2021</div>
+            </div>
+            <div class="event-content">Odd Semester Result Anouncement on SIET Website</div>
+          </div>
+          <div id="e6" class="event">
+            <div class="event-date">
+              <div style="border-bottom: 2px solid red; font-size: .7rem;">11</div>
+              <div>III</div>
+              <div>1111</div>
+            </div>
+            <div class="event-content">Xxx Xxxxxxxxx Xxx Xxxx Xxxxxxxxxxxxxxx Xx Xxxxx</div>
+          </div>
+          <div id="e6" class="event">
+            <div class="event-date">
+              <div style="border-bottom: 2px solid red; font-size: .7rem;">99</div>
+              <div>ZZZ</div>
+              <div>9999</div>
+            </div>
+            <div class="event-content">Yyy Yyyyyyyyyy Yy Yyyyyy Yyyy Yyyyyyyyyyyyyy Yyyyy</div>
+          </div>
+         </div>
+      </div>
+      
+    </section>
+  </main>
+
+
+  <script>
+      let main_img = document.getElementById("main-post");
+      let prev_img = document.getElementById("prev-post");
+      let next_img = document.getElementById("next-post");
+      let img_id_arr = [prev_img,main_img,next_img];
+      let img_src_arr = ["images/sample-1.jpg","images/sample-2.jpg","images/sample-3.jpg","images/sample-4.jpg","images/sample-5.jpg","images/sample-6.jpg"];
+      
+      setInterval( async() => {
+        for(let j=0;j<3;j++){
+          await fade_out(j); 
+          img_id_arr[j].src = img_src_arr[j];
+          await fade_in(j);
+        }   
+      
+        let x = img_src_arr.shift();
+        img_src_arr.push(x);
+      },
+      5000
+      );
+
+      function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+      }
+
+      async function fade_in(index) {
+        op = 0.0
+        img_id_arr[index].style.opacity=op;
+        for(let i=0;i<=1;i+=0.1){
+          img_id_arr[index].style.opacity=i;
+          await sleep(30);
+        }
+      }
+
+      async function fade_out(index) {
+        op = 1.0
+        img_id_arr[index].style.opacity=op;
+        for(let i=1;i>=0;i-=0.1){
+          img_id_arr[index].style.opacity=i;
+          await sleep(20);
+        }
+      }
+    
+  </script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
